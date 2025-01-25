@@ -38,7 +38,7 @@ function draw () {
     ellipse(100, 800, 800, 500); //left hill
     ellipse(500, 800, 600, 500); //middle hill
     ellipse(900, 800, 450, 400); //right hill
-    // snowman legs
+    // snowman 
     fill ("f1f1f1");
     strokeWeight(20);
     stroke("black");
