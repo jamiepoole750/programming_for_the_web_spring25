@@ -7,6 +7,7 @@ const name = window.prompt("What is your favorite movie?");
 
 //Adding movie to the array using push 
 myArr.push(name);
+console.log("My Favorite Movies", myArr);
 
 //display movie list with toString
 console.log(myArr.toString());
