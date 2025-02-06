@@ -39,13 +39,20 @@ function createTile(originX, originY, primaryColor, secondaryColor, thirdColor, 
 }
 
 function draw(){
-    createTile(0, 0, '#E07BE0', '#420039', '#932F6D', 80, 80);
-    createTile(0, 200, '#420039', '#932F6D', '#E07BE0', 20, 20);
-    createTile(0, 200, '#932F6D', '#E07BE0', '#420039', 60, 60);
-    createTile(200, -400, '#420039', '#932F6D', '#E07BE0', 20, 20);
-    createTile(0, 200, '#932F6D', '#E07BE0', '#420039', 60, 60);
-    createTile(0, 200, '#420039', '#932F6D', '#E07BE0', 20, 20);
-    createTile(200, -400, '#932F6D', '#E07BE0', '#420039', 60, 60);
-    createTile(0, 200, '#420039', '#932F6D', '#E07BE0', 20, 20);
-    createTile(0, 200, '#E07BE0', '#420039', '#932F6D', 80, 80);
+    //left side column
+    createTile(0, 0, '#E07BE0', '#420039', '#932F6D', 80, 80); //top
+    createTile(0, 200, '#420039', '#932F6D', '#E07BE0', 20, 20); //middle
+    createTile(0, 200, '#932F6D', '#E07BE0', '#420039', 60, 60); //bottom
+    //middle column
+    createTile(200, -400, '#420039', '#932F6D', '#E07BE0', 20, 20); //top
+    createTile(0, 200, '#932F6D', '#E07BE0', '#420039', 60, 60); //middle
+    createTile(0, 200, '#420039', '#932F6D', '#E07BE0', 20, 20); //bottom
+    //right side column
+    createTile(200, -400, '#932F6D', '#E07BE0', '#420039', 60, 60); //top
+    createTile(0, 200, '#420039', '#932F6D', '#E07BE0', 20, 20); //middle 
+    createTile(0, 200, '#E07BE0', '#420039', '#932F6D', 80, 80); //bottom
 }
+
+//dark purple = #420039
+//magenta = #932F6D
+//light magenta = #E07BE0
