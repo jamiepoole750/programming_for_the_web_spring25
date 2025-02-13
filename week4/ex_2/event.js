@@ -4,6 +4,7 @@ let rectY;
 const rectWidth = 75; //assigning 75 to a variable
 let clickCount = 0; //resetting the click count and assigning it to a variable
 let speed;
+let text;
 //setting up the canvas
 function setup() {
     createCanvas(500, 500); 
