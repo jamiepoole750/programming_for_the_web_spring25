@@ -65,7 +65,10 @@ function draw () {
     if (gameState.numMatched === gameState.totalPairs) { //if all pairs are matched
         textSize(50); //size of you won text
         fill('#f6aa00'); //change color of you win -- golden yellow
-        text('You Win!', 735, 110); //then text will display
+        text('You Win!', 735, 100); //then text will display
+        textSize(10);
+        fill('#0c204a');
+        text('Refresh the page to play again! ', 765, 120);
         noLoop();
     }
     for (let k = 0; k < cards.length; k++) {
