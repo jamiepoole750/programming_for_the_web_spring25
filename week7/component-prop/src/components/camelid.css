@@ -1,0 +1,15 @@
+.CamelidCard {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin: 5px 0px 5px 0px;
+}
+
+p {
+    padding: 0px 10px 0px 10px;
+}
