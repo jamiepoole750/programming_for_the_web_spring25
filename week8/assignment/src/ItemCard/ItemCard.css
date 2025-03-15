@@ -1,0 +1,85 @@
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+  }
+
+.pennyCard {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    height: 375px;
+    border: 1px solid #F8F5F2;
+    font-family: "Fraunces", serif;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: space-around;
+    position: relative;
+    background-color: #F8F5F2;
+}
+
+.cardImg img {
+    max-width: 260px;
+}
+
+.cardTitle {
+    /* add font */
+    top: 300px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7ca982;
+    border-bottom: 3px dotted #243E36;
+}
+
+.cardYear {
+    /* add font */
+    top: 340px;
+    position: absolute;
+    color: #243E36;
+}
+
+
+.cardLocation {
+    /*add font*/
+    top: 360px;
+    position: absolute;
+    color: #243E36;
+}
+
+.favPenny img { 
+    width: 25px;
+    height: 25px;
+    top: 12.5px;
+    position: absolute;
+    z-index: 10;
+    left: 5px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    right: 10px;
+    position: absolute;
+}
+
+.action a img {
+    width: 20px;
+    height: 20px;
+}
+
+.action a { 
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 3px;
+    border: 1px solid #243e36;
+    margin-left: 10px;
+}
+
+.action a:hover { 
+    background: #7ca982;
+}
