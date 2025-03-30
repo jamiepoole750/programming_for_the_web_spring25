@@ -1,0 +1,55 @@
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+  }
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 600;
+    color:  #F8F5F2;
+    padding-bottom: 20px;
+    border-bottom: 6px dotted #7ca982;
+}
+
+.masthead {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto 20px;
+    font-family: "Fraunces", serif;
+    color: #7ca982;
+}
+
+.masthead img {
+    max-width: 700px;
+    width: 100%;
+}
+
+.iconIndex {
+    display: inline-flex;
+    font-weight: 400;
+    gap: 20px;
+    background-color: #F8F5F2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.icon p {
+    margin: 0;
+    color: #243E36;
+}
