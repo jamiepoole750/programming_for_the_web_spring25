@@ -1,0 +1,47 @@
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+  }
+
+/* main page structure */
+.pennyDetail {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* link styling*/
+.pennyDetail a {
+    color: #CD803C;
+    text-decoration: none;
+}
+
+.pennyDetail a:hover{
+    color: #7ca982;
+}
+
+.pennyContainer {
+    background-color: #F8F5F2;
+    border-radius: 10px;
+    outline: 7px dotted #7ca982;
+    outline-offset: 10px;
+    padding: 20px;
+    font-family: "Fraunces", serif;
+    color: #243E36;
+}
+
+
+.pennyImg img{
+    max-width: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pennyDetail h1 {
+    color: #F8F5F2;
+    text-align: center;
+} 

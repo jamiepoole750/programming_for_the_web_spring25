@@ -1,0 +1,85 @@
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+  }
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: block;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.form-wrapper {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #F8F5F2;
+    padding: 20px;
+    font-family: "Fraunces", serif;   
+    color: #243E36;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Fraunces", serif;   
+    font-size: 20px;
+    color: #243E36;
+    margin-top: 5px;
+}
+
+.penny-fav {
+    text-align: center;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #CE702B;
+    font-family: "Fraunces", serif; 
+    color: #F8F5F2; 
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.form-group.required label {
+    position: relative;
+  }
+
+.form-group.required label:before {
+    content: "*";
+    position: absolute;
+    left: -10px;
+    color: red;
+  }
+
+.form-group.required.error label,
+.form-group .error {
+    color: red;
+}
+
+.form-group .error {
+    margin-top: 2px;
+    font-family: "Fraunces", serif; 
+    font-size: 12px;
+}
+  
