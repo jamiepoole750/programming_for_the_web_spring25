@@ -1,0 +1,15 @@
+html {
+    background: #853353;
+}
+
+body {
+    margin: 50px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
