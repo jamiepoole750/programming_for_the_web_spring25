@@ -48,7 +48,7 @@ function randomColorAndSong() {
 
 function centerButton() {
     let x = (windowWidth - 150) / 2;
-    let y = (windowHeight + height) / 2 + 40;
+    let y = (windowHeight + height) / 2 - 20;
     button.position(x,y);
 }
 

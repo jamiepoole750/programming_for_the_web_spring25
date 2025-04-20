@@ -1,0 +1,38 @@
+.capriola-regular {
+    font-family: "Capriola", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #104547; /*dark teal blue*/
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+h1, h2, h3{
+    font-family: "Capriola", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    display: inline-block;
+    color: white;
+    background:  #104547; /*dark teal blue*/
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
